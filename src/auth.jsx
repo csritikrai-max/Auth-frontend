@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Toaster, toast } from "sonner";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://auth-backend-n2vm.onrender.com";
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Mono:wght@400;500&display=swap');
