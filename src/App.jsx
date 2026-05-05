@@ -11,7 +11,7 @@ function App() {
 
   async function handleLogout() {
     try {
-      await fetch("http://localhost:4000/logout", {
+      await fetch("https://auth-backend-n2vm.onrender.com/logout", {
         method: "POST",
         credentials: "include",
       });
